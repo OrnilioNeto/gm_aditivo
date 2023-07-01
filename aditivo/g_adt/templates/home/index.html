@@ -21,9 +21,9 @@
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container px-5">
-                    <a href="{% url 'home' %}"><img src="{% static 'assets/img/gmaditivo.jpg' %}" width="50" height="50" style="border-radius: 50px" class="d-inline-block align-top" alt="" ></a>
+                    <a href="{% url 'home' %}"><img src="{% static 'assets/img/gmaditivo.jpg' %}" width="40" height="40" style="border-radius: 50px" class="d-inline-block align-top" alt="" ></a>
                     <a class="navbar-brand" href="{% url 'home' %}" style="margin-left: 10px;"> GM Aditivos</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="">Home</a></li>                           
@@ -184,7 +184,7 @@
                         <span class="text-white mx-1">&middot;</span>
                         <a class="link-light small" href="#!">Terms</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contato</a>
+                        <a class="link-light small" href="{% url 'contato' %}">Contato</a>
                     </div>
                 </div>
             </div>
